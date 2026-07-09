@@ -1,13 +1,12 @@
 # 🌐 WebRecon — Website Reconnaissance Tool
 
-> Gather **everything** about a website in seconds.  
+> Gather everything about a website in seconds.
 > DNS, IPs, open ports, SSL cert, HTTP headers, subdomains, geolocation — all in one command.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python&logoColor=white)
 ![No Dependencies](https://img.shields.io/badge/Dependencies-None-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
-![Author](https://img.shields.io/badge/Author-Mosaab_Afrit-orange?style=flat-square)
 
 ---
 
@@ -28,7 +27,7 @@
 
 ```bash
 # Clone
-git clone https://github.com/TheBoss01011/WebRecon.git
+git clone https://github.com/rishellevarghees/WebRecon.git
 cd WebRecon
 
 # Run (interactive mode)
@@ -88,21 +87,18 @@ python webrecon.py example.com
 
 ## 🛡️ Disclaimer
 
-> This tool is for **educational and authorized testing only**.  
-> Only scan websites you **own** or have **explicit permission** to test.  
+> This tool is for **educational and authorized testing only**.
+> Only scan websites you **own** or have **explicit permission** to test.
 > The author is **not responsible** for any misuse.
 
 ---
 
 ## 👤 Author
 
-**Mosaab Afrit**  
-🔗 [GitHub](https://github.com/TheBoss01011)  
-📜 Certified in Cybersecurity — EDRAAK & Anthropic Academy (2026)
+**Original author:** Mosaab Afrit
 
 ---
 
 ## ⭐ Support
 
-If this tool helped you, please consider giving it a **star** ⭐  
-It helps others discover the project!
+If this tool helped you, please consider giving it a **star** ⭐

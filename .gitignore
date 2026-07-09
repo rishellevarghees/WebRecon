@@ -1,6 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
@@ -27,8 +27,6 @@ share/python-wheels/
 MANIFEST
 
 # PyInstaller
-#   Usually these files are written by a python script from a template
-#   before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -61,7 +59,7 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# Flask 
+# Flask stuff:
 instance/
 .webassets-cache
 
@@ -72,6 +70,7 @@ instance/
 docs/_build/
 
 # PyBuilder
+.pybuilder/
 target/
 
 # Jupyter Notebook
@@ -84,14 +83,49 @@ ipython_config.py
 # pyenv
 .python-version
 
-# celery beat schedule file
+# pipenv
+# Pipfile.lock
+
+# poetry
+# poetry.lock
+# poetry.toml
+
+# pdm
+# pdm.lock
+# pdm.toml
+.pdm-python
+.pdm-build/
+
+# pixi
+# pixi.lock
+.pixi
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
 celerybeat-schedule
+celerybeat.pid
+
+# Redis
+*.rdb
+*.aof
+*.pid
+
+# RabbitMQ
+mnesia/
+rabbitmq/
+rabbitmq-data/
+
+# ActiveMQ
+activemq-data/
 
 # SageMath parsed files
 *.sage.py
 
 # Environments
 .env
+.envrc
 .venv
 env/
 venv/
@@ -112,13 +146,36 @@ venv.bak/
 # mypy
 .mypy_cache/
 .dmypy.json
-.dmypy.json
-
-# Pyre
 .pyre/
-
-# pytype static type analysis
 .pytype/
 
 # Cython debug symbols
 cython_debug/
+
+# PyCharm
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Temporary file for partial code execution
+tempCodeRunnerFile.py
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+
+# Local project files
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore package distribution artifacts
+pip-wheel-metadata/
+*.dist-info/
+*.egg-info/
+*.egg
