@@ -95,7 +95,7 @@ python webrecon.py example.com
 
 ## 👤 Author
 
-**Original author:** Mosaab Afrit
+**Original author:** Rishelle Sarah Varghees
 
 ---
 
